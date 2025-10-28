@@ -1,0 +1,14 @@
+# Project exclude paths
+
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+
+
+.gradle/
+gradle/wrapper/
+build/
+build/classes/kotlin/main/
+
+run/

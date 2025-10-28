@@ -1,0 +1,9 @@
+name: Scrapguard
+version: '1.0-SNAPSHOT'
+main: dev.reassembly.scrapguard.Scrapguard
+api-version: '1.21'
+depend:
+  - packetevents
+#libraries:
+#  - com.github.shynixn.mccoroutine:mccoroutine-bukkit-api:2.22.0
+#  - com.github.shynixn.mccoroutine:mccoroutine-bukkit-core:2.22.0
