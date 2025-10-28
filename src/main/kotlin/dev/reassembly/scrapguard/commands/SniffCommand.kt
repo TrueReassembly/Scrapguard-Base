@@ -3,6 +3,7 @@ package dev.reassembly.scrapguard.commands
 import co.aikar.commands.BaseCommand
 import co.aikar.commands.annotation.CommandAlias
 import co.aikar.commands.annotation.CommandCompletion
+import co.aikar.commands.annotation.CommandPermission
 import co.aikar.commands.annotation.Subcommand
 import com.github.retrooper.packetevents.protocol.packettype.PacketType
 import dev.reassembly.scrapguard.Scrapguard
@@ -16,7 +17,6 @@ object SniffCommand: BaseCommand() {
     @CommandCompletion("true|false @packets")
     fun onSniff(player: Player, whitelist: Boolean, packets: Array<String>) {
         val data = Scrapguard.instance.playerDataRegistry.getPlayerData(player)
-        player.sendMessage(whitelist.toString())
         val rawPacketNames = mutableListOf<String>()
         val extraDataRegex = Regex(pattern = "\\(.*\\)", options = setOf(RegexOption.IGNORE_CASE))
 
