@@ -1,6 +1,6 @@
 # Scrapguard Base
 
-This is the base of an anticheat I made as a persnal project. I had fun coding it and thought some other people may want to try out designing their own checks. The permission to see alerts is `scrapguard.alerts'.
+This is the base of an anticheat I made as a personal project. I had fun coding it and thought some other people may want to try out designing their own checks. The permission to see alerts is `scrapguard.alerts'.
 
 ## Dependencies
 This plugin requires [packetevents](https://github.com/retrooper/packetevents/) to be installed as a plugin on your server.
